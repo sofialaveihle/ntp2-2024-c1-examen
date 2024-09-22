@@ -1,4 +1,5 @@
 "use client";
+import "./Item.css";
 
 export default function Item({items}) {
   if (!items) {
@@ -9,7 +10,7 @@ export default function Item({items}) {
     <ul>
       {items.map(item => (
         <li>
-          <div className="sale-item__info">
+          <div>
             <h3> Nombre: {item.name}</h3>
             <h3> Precio: {item.price.$numberDecimal}</h3>
             <h3> Cantidad: {item.quantity}</h3>

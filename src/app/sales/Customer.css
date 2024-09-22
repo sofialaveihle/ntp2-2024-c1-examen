@@ -21,11 +21,11 @@
     border-radius: 6px;
     padding: 1rem;
     overflow: hidden;
-    background: white;
+    background: grey;
   }
   
   .customer-item {
-    margin: 1rem;
+    margin: 10px;
     width: calc(45% - 2rem);
     min-width: 17.5rem;
   }
@@ -36,7 +36,7 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
-    padding: 1rem;
+    padding: 10px;
     color: white;
     background: #7a3030;
   }
@@ -47,7 +47,7 @@
   }
   
   .customer-item__content {
-    padding: 0;
+    padding: 20px;
   }
   
   .customer-item__image {
@@ -60,7 +60,7 @@
     font-size: 1rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: pink;
+    color: rgb(56, 17, 23);
   }
   
   .customer-item:hover h2,

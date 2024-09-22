@@ -1,11 +1,12 @@
 "use client";
+import "./Customer.css"
 
 export default function Customer({propsCustomer}) { //Llaves
   if (!propsCustomer) {
     return <div>Cargando datos del comprador...</div>;
   }
   return (
-    <li className="customer-item">
+    <div className="customer-item">
       <div className="card customer-item__content">      
         <div className="customer-item__image avatar">
         {/*<img src={props.Picture} alt={props.UserName} />*/}
@@ -17,6 +18,6 @@ export default function Customer({propsCustomer}) { //Llaves
           <h2>Satisfacción: {propsCustomer.satisfaction}</h2>
         </div>
       </div>
-    </li>
+    </div>
   );
 };
